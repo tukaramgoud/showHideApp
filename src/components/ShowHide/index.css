@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #fc63a7;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-family: Roboto;
+  font-size: 70px;
+}
+.buttons-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  min-height: 40vh;
+}
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #fc63a7;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: Roboto;
+}
